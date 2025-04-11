@@ -1,0 +1,33 @@
+num = int(input("enter a number" ))
+if num > 0  :
+ print("it is a positive number")
+if num < 0  :
+  print("it is a negative number")
+  
+  # profit loss
+cp = int(input("enter the Cp"))
+sp = int(input("enter the sp"))
+if sp > cp :
+    print("profit")
+    profit = sp-cp
+    print(profit)
+else:
+    print("loss")
+    
+    
+    
+    # checking
+n1 = int(input("enter the number"))
+if n1 > 15:
+    print("n1 greater is then 15")
+else :
+    print("n1 lesser is then 15")
+#odd and even
+n2 = int(input("enter the number"))
+if n2 % 2== 0:
+    print("n2 even ")
+else :
+    print("n2 odd ")
+
+
+
